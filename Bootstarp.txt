@@ -1,0 +1,45 @@
+================================== NOTES ==================================
+
+Very important css codes with bootstrap for responsive websites
+Each row has 12 columns 
+col-6 means this div has a width of (6/12)*100 = 50% of screen size
+col-4 means this div has a width of (4/12)*100 = 25% of screen size
+col-3 means this div has a width of (3/12)*100 = 33.33% of screen size
+col-2 means this div has a width of (2/12)*100 = 16.66% of screen size
+col-1 means this div has a width of (1/12)*100 = 8.333% of screen size
+and so on....
+
+col-lg-3 means on large devices it will take 25% 
+col-md-4 means on mediun devices it will take 33.33% 
+col-sm-6 means on small devices it will take 50% 
+
+================================== CODE ==================================
+
+<div class="row">
+    <div class="col" style="background-color:red; border:1px solid;"> col </div>
+    <div class="col" style="background-color:red; border:1px solid;"> col </div>
+</div>
+<div class="row">
+    <div class="col-6" style="background-color:green; border:1px solid;">col-6</div>
+    <div class="col-3" style="background-color:green; border:1px solid;">col-3</div>
+    <div class="col-2" style="background-color:green; border:1px solid;">col-2</div>
+    <div class="col-1" style="background-color:green; border:1px solid;">col-1</div>
+</div>
+<div class="row">
+    <div class="col-lg-3 col-md-4 col-sm-6" style="background-color:yellow; border:1px solid;">col-lg-3 col-md-4 col-sm-6</div>
+    <div class="col-lg-3 col-md-4 col-sm-6" style="background-color:yellow; border:1px solid;">col-lg-3 col-md-4 col-sm-6</div>
+    <div class="col-lg-3 col-md-4 col-sm-6" style="background-color:yellow; border:1px solid;">col-lg-3 col-md-4 col-sm-6</div>
+    <div class="col-lg-3 col-md-4 col-sm-6" style="background-color:yellow; border:1px solid;">col-lg-3 col-md-4 col-sm-6</div>
+</div>
+
+
+================================== PRATICE ==================================
+
+<div class="row">
+    <div class="col-lg-2 col-md-3 col-sm-12" style="background-color:grey; border:1px solid">col-lg-2</div>
+    <div class="col-lg-2 col-md-3 col-sm-12" style="background-color:grey; border:1px solid">col-lg-2</div>
+    <div class="col-lg-2 col-md-3 col-sm-12" style="background-color:grey; border:1px solid">col-lg-2</div>
+    <div class="col-lg-2 col-md-3 col-sm-12" style="background-color:grey; border:1px solid">col-lg-2</div>
+    <div class="col-lg-2 col-md-3 col-sm-12" style="background-color:grey; border:1px solid">col-lg-2</div>
+    <div class="col-lg-2 col-md-3 col-sm-12" style="background-color:grey; border:1px solid">col-lg-2</div>
+</div>
